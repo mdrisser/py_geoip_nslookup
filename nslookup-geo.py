@@ -6,11 +6,11 @@ from nslookup import Nslookup
 
 # Connection Information for IP Geolocation, used to get geolocation
 IPGEO_API_URL = "https://api.ipgeolocation.io/ipgeo"
-IPGEO_API_KEY = "b2eb304fb75f4956b946a99ff022c5d2"
+IPGEO_API_KEY = "PLACE YOUR IP GEOLOCATION API KEY HERE"
 
 # Connection information for Auth0, used to get blacklist information
 AUTH0_API_URL = "https://signals.api.auth0.com/v2.0/ip/"
-AUTH0_API_KEY = "eed8ca8a-4678-40a3-98b7-d762f66fcf59"
+AUTH0_API_KEY = "PLACE YOUR AUTH0 API KEY HERE"
 
 # If we don't have at least 1 argument, len = 1 is just the script name
 if len(sys.argv) < 2:
